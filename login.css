@@ -1,0 +1,106 @@
+body{
+    /* background-image: url("backgroundimage.jpg"); */
+    background: linear-gradient(rgb(207, 236, 76),hotpink);
+    min-height:100vh;
+}
+.container{
+height:500px;
+width:500px;
+margin:auto;
+display: block;
+margin-top: 80px;
+color:var(--white-color);
+backdrop-filter: blur(100px);
+border-radius: 30px;
+border: none;
+box-shadow:0 2px 24px rgba(233, 7, 97, 0.932);
+}
+p{
+font-weight:600;
+font-size: 30px;
+display: flex;
+justify-content: center;
+}
+.input-icons {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 12px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 47px;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* margin-left: 1px; */
+    border: none;
+    border-radius: 14px;
+}
+div{
+position: relative;
+bottom:8%;
+margin-left: 19px;
+
+}
+div a{
+transition: background 1s;
+color: rgb(219, 69, 10);
+text-decoration: none;
+font-size: 20px;
+}
+.container .underline{
+position: relative;
+top: 14%;
+width:50px;
+height:4px;
+left: 42%;
+background: green;
+}
+.input-field{
+height:90%;
+border: none;
+}
+button{
+position: relative;
+bottom: 30%;
+margin-left: 39%;
+font-size: 16px;
+border-radius: 20px;
+background-color:lightgreen;
+display: none;
+border: none;
+height:30px;
+width: 20%;
+}
+input[type="checkbox"],label{
+/* display: block; */
+position: relative;
+margin-top:1%;
+left:0.1px;
+width:auto;
+height:13.5px;
+width:10%;
+/* border:2px solid black; */
+}
+label{
+position: relative;
+top:-0.5px;
+left: -2.9%;
+font-weight:550 ;
+}
+@media screen and (max-width:20px) {
+.container,.input-field{
+width: 100%; 
+/* font-size: 10vw; */
+/* The width is 100%, when the viewport is 800px or smaller */
+}
+}

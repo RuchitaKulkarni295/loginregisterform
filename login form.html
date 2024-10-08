@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginregisterform</title>
+    <link rel="icon" type="image/x-icon" href="loginregister.png">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="underline"></div>
+    <p class="title">
+        Sign Up
+    </p>
+    <!-- <input type="checkbox"><label id="checkbox">Remember me</label></input> -->
+    <div class="input-icons">
+        <i class="fa fa-user icon"style="font-size:26px; position: relative;top: 42px;"></i>
+        <input class="input-field" type="text" id="user" placeholder="Username"><br>
+        <i class="fa fa-envelope icon" style="font-size: 22px;"></i>
+        <input class="input-field" type="text" id="email" placeholder="Email"><br>
+
+        <i class="fa fa-key icon" id="icon-2" style="font-size: 22px;"></i>
+        <input class="input-field" type="password" id="pass" placeholder="Password"><br>
+
+        <i class="fa fa-key icon" id="icon-3" style="font-size: 22px;"></i>
+        <input class="input-field" id="reenter" type="password" placeholder="Re-enter Password"><br>
+    
+    
+        <nav style="display: none;">
+        <input type="checkbox" id="checkbox"><label id="checkbox">Remember me</label></input>
+    </nav>
+    </div>
+
+
+
+    <div class="extra" id="hide">Forget Password?<a href="#" id="forget">Click here</a><br><br>
+    Already have an Account<a href="#" id="login">Log in</a></div>
+    <!-- <div3>Already have an account?<a href="#">Log in</a></div3> -->
+
+    <!-- <p style="font-size: 18px;position: relative;bottom: 35%;right: 170px;" id="p"><input type="checkbox" id="Checkbox" style="color:blue;position: relative;bottom:30%;margin-left: 16px;">Remember me</p> -->
+    
+    <button id="button">Get OTP</button>
+</div>
+
+
+<script src="login.js"></script>
+</body>
+</html>
